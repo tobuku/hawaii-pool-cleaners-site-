@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Contact | Hawaii Pool Cleaners</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="Contact Hawaii Pool Cleaners to request pool cleaning, repair, and vinyl liner service across Oahu." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <div class="brand-mark">HPC</div>
+        <div class="brand-text">
+          <span class="brand-name">Hawaii Pool Cleaners</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="offerings.html">Offerings</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="nav-cta">Get Started Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="page-kicker">Contact</p>
+        <h1>Get Started with Hawaii Pool Cleaners</h1>
+        <p class="page-intro">
+          Have questions about service, pricing, or vinyl liner options? Send us a quick message and
+          we’ll follow up with scheduling and next steps.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM + INFO -->
+    <section class="section section-light">
+      <div class="container contact-layout">
+        <div class="contact-info">
+          <h2>How to reach us</h2>
+          <p>
+            Share a few details about your pool and what you need help with. We typically respond
+            as soon as possible during normal business hours.
+          </p>
+
+          <div class="contact-meta">
+            <h3>Contact details</h3>
+            <p>
+              Phone: <strong>(808) 000-0000</strong><br />
+              Email: <strong>info@hawaiipoolcleaners.com</strong><br />
+            </p>
+
+            <h3>Typical hours</h3>
+            <p>
+              Monday–Friday: 8:00 am – 4:30 pm<br />
+              Saturday: By appointment<br />
+              Sunday: Closed
+            </p>
+          </div>
+
+          <h3>Helpful details to include</h3>
+          <ul class="contact-list">
+            <li>Pool size and approximate age</li>
+            <li>Location (area and neighborhood)</li>
+            <li>Current issues (green, cloudy, leaks, equipment problems)</li>
+            <li>Whether you’re interested in weekly service or one-time work</li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" placeholder="(808) 555-1234" />
+          </label>
+          <label>
+            Location
+            <input type="text" name="location" placeholder="Ewa Beach, Kapolei, Mililani, etc." />
+          </label>
+          <label>
+            How can we help?
+            <textarea name="message" rows="5"
+              placeholder="Tell us about your pool, issues, and goals."></textarea>
+          </label>
+          <button type="submit" class="btn-primary" disabled>
+            Submit (demo – connect later)
+          </button>
+          <p class="form-note">
+            This is a static demo form. When you’re ready, it can be connected to an email or form service.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- SERVICE AREAS + MAP PLACEHOLDER -->
+    <section class="section">
+      <div class="container two-column">
+        <div>
+          <h2>Service areas</h2>
+          <p>
+            Based on Oʻahu, we focus on residential and small commercial pools in:
+          </p>
+          <div class="pill-list">
+            <span class="pill">Ewa Beach</span>
+            <span class="pill">Kapolei</span>
+            <span class="pill">Ko Olina</span>
+            <span class="pill">Waipahu</span>
+            <span class="pill">Makakilo</span>
+            <span class="pill">Mililani</span>
+            <span class="pill">Hawaii Kai</span>
+            <span class="pill">Surrounding areas (case by case)</span>
+          </div>
+          <p style="margin-top:1rem; color:#6b7280;">
+            Not sure if you are in range? Send your address and we’ll confirm availability.
+          </p>
+        </div>
+
+        <div class="map-card">
+          <h3>Map (placeholder)</h3>
+          <div class="map-placeholder">
+            <p>
+              Map placeholder for Oʻahu service area.  
+              When you are ready, you can embed a real map here using Google Maps or another map tool.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="cta-panel">
+          <div>
+            <h2>Ready for a clearer, easier pool?</h2>
+            <p>
+              From weekly cleaning to vinyl liner replacement, our team is here to help keep your
+              pool in top shape.
+            </p>
+          </div>
+          <div>
+            <a href="mailto:info@hawaiipoolcleaners.com" class="btn-primary">
+              Email Hawaii Pool Cleaners
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Hawaii Pool Cleaners. All rights reserved.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
